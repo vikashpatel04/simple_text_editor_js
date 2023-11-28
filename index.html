@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text editer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Online Text Editer</h1>
+      <div class="container">
+        <div class="btn_wrapper">
+          <button type="button" class="utils" onclick="f1()" title="Bold">
+            Bold
+          </button>
+          <button type="button" class="utils" onclick="f2()" title="Italic">
+            Italic
+          </button>
+          <button type="button" class="utils" onclick="f3()" title="Left Align">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-align-left"
+            >
+              <line x1="21" x2="3" y1="6" y2="6" />
+              <line x1="15" x2="3" y1="12" y2="12" />
+              <line x1="17" x2="3" y1="18" y2="18" />
+            </svg>
+          </button>
+          <button
+            type="button"
+            class="utils"
+            onclick="f4()"
+            title="Center Align"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-align-center"
+            >
+              <line x1="21" x2="3" y1="6" y2="6" />
+              <line x1="17" x2="7" y1="12" y2="12" />
+              <line x1="19" x2="5" y1="18" y2="18" />
+            </svg>
+          </button>
+          <button
+            type="button"
+            class="utils"
+            onclick="f5()"
+            title="Right Align"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-align-right"
+            >
+              <line x1="21" x2="3" y1="6" y2="6" />
+              <line x1="21" x2="9" y1="12" y2="12" />
+              <line x1="21" x2="7" y1="18" y2="18" />
+            </svg>
+          </button>
+          <button
+            type="button"
+            class="utils"
+            onclick="f6()"
+            title="Uppercase Text"
+          >
+            Uppercase
+          </button>
+          <button
+            type="button"
+            class="utils"
+            onclick="f7()"
+            title="Lowercase Text"
+          >
+            Lowercase
+          </button>
+          <button
+            type="button"
+            class="utils"
+            onclick="f8()"
+            title="Capitalize Text"
+          >
+            Capitalize
+          </button>
+          <button type="button" class="utils" onclick="f9()" title="Clear Text">
+            Clear
+          </button>
+        </div>
+        <textarea
+          name="textarea"
+          id="textarea"
+          placeholder="Enter your text"
+        ></textarea>
+      </div>
+      <!-- <button type="button" class="utils">Download</button> -->
+    </main>
+    <footer>
+      <p style="text-align: center; padding-bottom: 2rem">
+        Created by
+        <a target="_blank" href="https://github.com/vikashpatel04"
+          >Vikash Patel</a>
+      </p>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>

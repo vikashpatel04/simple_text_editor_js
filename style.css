@@ -1,0 +1,72 @@
+@font-face {
+  font-family: "Samsung Sharp Sans";
+  src: url(./fonts/samsungsharpsans.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Samsung Sharp Sans";
+  /* border: solid 1px black; */
+}
+main {
+  height: 100vh;
+  margin: 0px 14rem 0px 14rem;
+  /* background-color: black; */
+  /* overflow: hidden; */
+}
+main h1 {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  transition: all 0.3s ease-in-out;
+  font-style: bold;
+}
+main h1:hover {
+  color: #ff0000;
+  font-weight: 800;
+  cursor: pointer;
+}
+.utils {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: solid 1px #1a1a1a;
+  box-shadow: 0px 0px 30px -15px rgba(0, 0, 0, 0.75);
+  transition: all 0.2s ease-in-out;
+}
+.utils:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 30px -5px rgba(48, 45, 45, 0.75);
+}
+.utils:active {
+  box-shadow: 0px 0px 30px -15px rgba(0, 0, 0, 0.75);
+}
+.btn_wrapper {
+  display: flex;
+  width: 100%;
+  margin-top: 2rem;
+  gap: 1rem;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1.5rem;
+}
+textarea {
+  resize: none;
+  padding: 2rem;
+  font-size: 18px;
+  height: 30rem;
+  width: 100%;
+}
